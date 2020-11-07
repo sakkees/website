@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import wide from './WidePeepoHappy.png';
 import './App.css';
+import reportWebVitals from './reportWebVitals';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={wide} alt="widepeepohappy" />
+      <span className="emoji" role="img" aria-label="pointing right">
+        &#128073;
+      </span>
+      <span className="emoji" role="img" aria-label="heart">
+        &#128151;
+      </span>
+        </header>
     </div>
   );
 }
-
+reportWebVitals(console.log);
 export default App;
